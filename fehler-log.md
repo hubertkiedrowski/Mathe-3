@@ -39,3 +39,27 @@ $$ \int_{-2}^{1} x \, dx = ? $$
 Mein Fehler: Stammfunktion von $x$ mit der von $1/x$ verwechselt ($\ln$ benutzt) — $\ln(-2)$ ist zudem undefiniert.
 Richtig waere: Stammfunktion von $x$ ist $x^2/2$, also $\left[x^2/2\right]_{-2}^{1} = \tfrac{1}{2} - 2 = -\tfrac{3}{2}$.
 Skript-Verweis: Kapitel 36 (Stammfunktion), Lemma 36.4
+
+### F-4 · Integration: Konstante integrieren · eigene Aufgabe
+- Datum: 2026-06-22
+- Status: offen
+
+Aufgabe:
+
+$$ \int (4x^3 - 6x^2 + 2x - 7)\, dx = ? $$
+
+Mein Fehler: Die Konstante $-7$ falsch "integriert" (als $-7^2/2$ geschrieben) statt zu $-7x$; ausserdem $+C$ vergessen.
+Richtig waere: Eine Konstante $a$ integriert zu $a\cdot x$, also $-7 \to -7x$; Ergebnis $x^4 - 2x^3 + x^2 - 7x + C$.
+Skript-Verweis: Kapitel 36 (Stammfunktion)
+
+### F-5 · Integration: bestimmtes Integral, Vorzeichen/Grenzen · eigene Aufgabe
+- Datum: 2026-06-22
+- Status: offen
+
+Aufgabe:
+
+$$ \int_{-1}^{2} (x-1)\, dx = ? $$
+
+Mein Fehler: Vorzeichen falsch ($1{,}5$ statt $-1{,}5$) — vermutlich $F(-1)-F(2)$ statt $F(2)-F(-1)$ gerechnet.
+Richtig waere: $F(x)=x^2/2 - x$; $F(2)-F(-1) = 0 - \tfrac{3}{2} = -\tfrac{3}{2}$.
+Skript-Verweis: Kapitel 36 (Hauptsatz, bestimmtes Integral)
