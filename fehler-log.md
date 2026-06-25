@@ -63,3 +63,15 @@ $$ \int_{-1}^{2} (x-1)\, dx = ? $$
 Mein Fehler: Vorzeichen falsch ($1{,}5$ statt $-1{,}5$) — vermutlich $F(-1)-F(2)$ statt $F(2)-F(-1)$ gerechnet.
 Richtig waere: $F(x)=x^2/2 - x$; $F(2)-F(-1) = 0 - \tfrac{3}{2} = -\tfrac{3}{2}$.
 Skript-Verweis: Kapitel 36 (Hauptsatz, bestimmtes Integral)
+
+### F-6 · Unendliche Mengen: Aufzaehlung von Z (abzaehlbar) · Aufgabe 40.4
+- Datum: 2026-06-22
+- Status: offen
+
+Aufgabe:
+
+$$ \text{Rechenvorschrift fuer } f:\mathbb{N}\to\mathbb{Z} \text{ mit } 0,1,-1,2,-2,3,-3,\dots $$
+
+Mein Fehler: Halbschritt-/Vorzeichen-Idee richtig, aber abgerundet (floor) statt aufgerundet (ceil) -> falsche Betraege; Vorzeichenregel unklar.
+Richtig waere: $f(n)=\tfrac{n+1}{2}$ fuer $n$ ungerade, $-\tfrac{n}{2}$ fuer $n$ gerade; geschlossen $f(n)=(-1)^{n+1}\lceil n/2\rceil$ (mit $0\in\mathbb{N}$).
+Skript-Verweis: Aufgabe 40.4, Lemma 40.1, Definition "abzaehlbar" (Kap. 40)
